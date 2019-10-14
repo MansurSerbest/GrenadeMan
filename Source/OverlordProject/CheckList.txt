@@ -1,0 +1,62 @@
+CHECK LIST
+===========
+
+- Bomberman bomb Collision ========================== CHECK
+- Bomberman Kick Bomb : Set bomb pointer to null when bomb is changing from grid! ===================== CHECK
+- Implement Punch Animation ================= CHECK
+- Implement Dead Animation At Death ================= CHECK
+- Explosion of one bombs trigger the other bomb to explode =========== CHECK
+- Implement Multiplayer
+	- Should Bombermans block eachother?
+	- When Bomberman dies, it should give score to the owner of the bomb it was killed by ===== CHECK
+	- Implement Colors =========== CHECK
+- Implement Menu System ========= CHECK
+- Implement timer HUD 
+- implement Bomberman HUD =========== CHECK
+- Implement better Feedback for health system?
+- Implement SoundEffect =========== CHECK
+- Implement Background Music =========== CHECK
+- Implement Items ========== CHECK
+- Implement Nr of Player Buttons in StartMenu ======== CHECK
+- Implement Controler sheet ========= CHECK
+- Fix bug: Only give score if the killed player is alive ======= CHECK
+- Implement player HUD shake when hit by bomb
+- Change pickUp Particle for pickups ======= CHECK
+- Fix Reset life time of explosion if expanding explosing grid already has an explosion ======= CHECK
+- Bomb destroys pickup ========== Check
+- End mode
+- Fix Bug: Other players can't control end menu =========== CHECK
+
+
+Fix when extra time
+======================
+- After punching bomb, the bomb goes trough bomberman
+- there shouldn't be a collision between bombermans
+- Music doesn't loop! ========== SOLVED
+
+HUD
+=====
+health and score
+time HUD
+
+Sprites
+========
+power ups:
+- bomb power
+- bomb capacity
+- speed
+
+Start Menu Button
+==================
+- Play
+	- 1 player
+	- 2 player
+	- 3 player
+	- 4 player
+- Exit
+
+Pause Game Menu Buttons
+==============
+- Restart
+- Main Menu
+- Exit

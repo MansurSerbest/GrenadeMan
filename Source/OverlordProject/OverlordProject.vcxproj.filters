@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\UberMaterial.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="Levels\Level1.cpp" />
+    <ClCompile Include="Characters\InputComponent.cpp" />
+    <ClCompile Include="Characters\MovementComponent.cpp" />
+    <ClCompile Include="Camera\BomberManCamera.cpp" />
+    <ClCompile Include="Characters\BombManagerComponent.cpp" />
+    <ClCompile Include="Characters\BombComponent.cpp" />
+    <ClCompile Include="Characters\ExplosionComponent.cpp" />
+    <ClCompile Include="Characters\HealthAndScoreComponent.cpp" />
+    <ClCompile Include="Characters\InteractionComponent.cpp" />
+    <ClCompile Include="Levels\GameData.cpp" />
+    <ClCompile Include="Levels\StartMenu.cpp" />
+    <ClCompile Include="Levels\MenuController.cpp" />
+    <ClCompile Include="Characters\PickUpComponent.cpp" />
+    <ClCompile Include="Materials\PostBlur.cpp" />
+    <ClCompile Include="Characters\PickUpParticleComponent.cpp" />
+    <ClCompile Include="Materials\PostTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\UberMaterial.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="Levels\Level1.h" />
+    <ClInclude Include="Characters\InputComponent.h" />
+    <ClInclude Include="Characters\MovementComponent.h" />
+    <ClInclude Include="Camera\BomberManCamera.h" />
+    <ClInclude Include="Characters\BombManagerComponent.h" />
+    <ClInclude Include="Characters\BombComponent.h" />
+    <ClInclude Include="Characters\ExplosionComponent.h" />
+    <ClInclude Include="Characters\HealthAndScoreComponent.h" />
+    <ClInclude Include="Characters\InteractionComponent.h" />
+    <ClInclude Include="Levels\GameData.h" />
+    <ClInclude Include="Levels\StartMenu.h" />
+    <ClInclude Include="Levels\MenuController.h" />
+    <ClInclude Include="Characters\PickUpComponent.h" />
+    <ClInclude Include="Materials\PostBlur.h" />
+    <ClInclude Include="Characters\PickUpParticleComponent.h" />
+    <ClInclude Include="Materials\PostTimer.h" />
+  </ItemGroup>
+</Project>
